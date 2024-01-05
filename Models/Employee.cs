@@ -17,7 +17,7 @@ public partial class Employee
 
     public string? LastName { get; set; }
 
-    public DateOnly? EmploymentDate { get; set; }
+    public DateOnly EmploymentDate { get; set; }
 
     public int? Salary { get; set; }
 

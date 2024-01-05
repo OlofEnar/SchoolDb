@@ -1,17 +1,13 @@
-﻿using SchoolDB.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
 
 namespace SchoolDB
 {
+    // Method for starting app and displaying main screen
     internal class App
     {
         public void Run()
         {
-            ConsoleIO.Io.Menu();
+            ConsoleIO.Io.MainScreen();
         }
     }
 }
